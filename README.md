@@ -21,7 +21,7 @@ Multilingual Instruction Tuning"</a> (AAAI 2026)
 ## LangGPS Data Pre-selection
 
 ```
-# Note: please make sure your vanilla data follows the format of './data/full.json'
+# Note: please make sure your vanilla data follows the format of example './data/full.json'
 1. python 1_get_vectors.py --model_path {path of model under selection} --data_path {path of where your vanilla data stores} --save_path {path of targeted folder for saving}
 2. python 2_scoring.py --save_path {same save_path in step 1}
 3. python 3_select.py --data_path {path of where your vanilla data stores} --save_path {same save_path in step 1} --percent {pre-selection ratio}
