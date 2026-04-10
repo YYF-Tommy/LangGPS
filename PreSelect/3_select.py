@@ -78,4 +78,4 @@ if __name__ == "__main__":
 
     os.makedirs(save_path, exist_ok=True)
     with open(f"{save_path}/selected_top_{percent}%.json", 'w', encoding='utf-8') as f:
-        json.dump(saved_data, f, ensure_ascii=False, indent=2)
+        json.dump(selected_data, f, ensure_ascii=False, indent=2)
